@@ -1,7 +1,7 @@
 /*eslint-disable*/
 import React from "react";
 import Typist from 'react-typist';
-import Typewriter from 'typewriter-effect';
+// import Typewriter from 'typewriter-effect';
 // import { ReactRotatingText } from "react-rotating-text";
 // import Snow from 'react-snow-effect';
 
@@ -49,7 +49,7 @@ function IndexHeader() {
               {/* <h3>PLASM.it - 2018</h3> */}
               <h1 className="h1-seo">IIT ROORKEE</h1>
               <h3><Typist  startDelay="1000" cursor={{hideWhenDone:true, hideWhenDoneDelay:0}}>CHILD RIGHTS AND YOU FAMILY!</Typist></h3>
-              <h1 className="h1-seo">FOR ALL THE <Typewriter wait="3000" options={{strings: ['Loving','Caring','AMAZING', 'SUPPORTIVE'], autoStart: true, loop: true}}/>SENIORS...</h1>
+              {/* <h1 className="h1-seo">FOR ALL THE <Typewriter wait="3000" options={{strings: ['Loving','Caring','AMAZING', 'SUPPORTIVE'], autoStart: true, loop: true}}/>SENIORS...</h1> */}
               <h3><Typist  startDelay="5000" cursor={{hideWhenDone:true, hideWhenDoneDelay:0}}>WE ARE REALLY GONNA MISS YOU A LOT! </Typist><i class="fas fa-heart"></i></h3>
             {/* </div> */}
           </div>

@@ -18,7 +18,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
-import Snow from 'react-snow-effect';
 
 // styles for this kit
 import "assets/css/bootstrap.min.css";
@@ -35,7 +34,7 @@ import './index.css'
 
 ReactDOM.render(
   <BrowserRouter>
-    <Snow /> 
+     
     <Switch>
       {/* <Switch> */}
         <Route path="/index" render={props => <Index {...props} />} />

@@ -16,7 +16,7 @@ function CompleteExamples() {
               <h5 className="description">
                 Here are some other links that might be useful for all of you.
               </h5>
-              <h4> MADE WITH <i className="fa fa-heart" /> BY Pyare Juniors.</h4>
+              <h4> Made With <i className="fa fa-heart" /> by PYARE JUNIORS.</h4>
             </Col>
           </Row>
         </Container>

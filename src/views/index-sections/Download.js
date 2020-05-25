@@ -17,7 +17,7 @@ function Download() {
           {/* TRing to insert location here. */}
           <Row className="justify-content-md-center sharing-area text-center">
             <Col className="text-center" lg="8" md="12">
-              <h2>Thank you for supporting us!</h2>
+              <h2>Thank you for always supporting us!</h2>
             </Col>
             {/* <Col className="text-center" lg="8" md="12">
               <h3>Reach out to us at : chess@iitr.ac.in</h3>

@@ -1,6 +1,7 @@
 import React from "react";
 import ParticlesBg from "particles-bg";
 import icon from "./icon";
+import {Members} from './MemberData';
 
 // reactstrap components
 import {
@@ -42,105 +43,7 @@ function TeamPage() {
   };
 
   // write the const for the team details here...
-  const teamMembers = [
-    {
-      src: require("assets/img/kapil.jpg"),
-      altText: "Kapil Birthala",
-      name: "Kapil Birthala",
-      category: "Convener",
-      fbLink:"https://www.facebook.com/profile.php?id=100009371717274",
-      linkedinLink:"https://linkedin.com/in/kapil-birthala/"
-    },
-    {
-      src: require("assets/img/aniket.jpeg"),
-      altText: "Aniket Kumbhar",
-      name: "Aniket Kumbhar",
-      category: "Co-Convener",
-      fbLink:"https://www.facebook.com/aniket.kumbhar.31945",
-      linkedinLink:"https://linkedin.com/in/aniket-kumbhar-2418ab151/"
-    },
-    {
-      src: require("assets/img/abhishek.jpg"),
-      altText: "Abhishek Kumar",
-      name: "Abhishek Kumar",
-      category: "Events Head",
-      fbLink:"https://www.facebook.com/kmraabhii",
-      linkedinLink:"https://linkedin.com"
-    },
-    {
-      src: require("assets/img/shuvam.jpg"),
-      altText: "Shuvam Samadder",
-      name: "Shuvam Samadder",
-      category: "Alumni-Relations Head",
-      fbLink:"https://www.facebook.com/shuvam.samadder.96",
-      linkedinLink:"https://www.linkedin.com/in/shuvam-samadder-52b20214b/"
-    },
-    {
-      src: require("assets/img/abdul-square.jpg"),
-      altText: "Abdulahad Khan",
-      name: "Abdulahad Khan",
-      category: "Techncial Head",
-      fbLink:"https://www.facebook.com/qadbury0123456789",
-      linkedinLink:"https://www.linkedin.com/in/abdulahad-khan-profile/"
-    },
-    {
-      src: require("assets/img/Vinu.jpeg"),
-      altText: "Vinay Kumar Goyal",
-      name: "Vinay Kumar Goyal",
-      category: "Web Developer",
-      fbLink:"https://www.facebook.com/profile.php?id=100006934575869",
-      linkedinLink:"https://www.linkedin.com/in/vinay-kumar-goyal-002809179/"
-    },
-    {
-      src: require("assets/img/sn.jpg"),
-      altText: "Surendra Nitharwal",
-      name: "Surendra Nitharwal",
-      category: "Cultural Head",
-      fbLink:"https://www.facebook.com/surendra.11052000",
-      linkedinLink:"https://linkedin.com"
-    },
-    {
-      src: require("assets/img/default-avatar.png"),
-      altText: "Anupama Kumari",
-      name: "Anupama Kumari",
-      category: "PhD Member",
-      fbLink:"https://www.facebook.com/",
-      linkedinLink:"https://www.linkedin.com/"
-    },
-    {
-      src: require("assets/img/tushar.jpeg"),
-      altText: "Tushar Rohilla",
-      name: "Tushar Rohilla",
-      category: "Technical Executive",
-      fbLink:"https://www.facebook.com/tushar.rohilla.94",
-      linkedinLink:"https://www.linkedin.com/in/tushar-rohilla-007/"
-    },
-    {
-      src: require("assets/img/parth.jpeg"),
-      altText: "Parth Saxena",
-      name: "Parth Saxena",
-      category: "Executive Member, Alumni-Relations",
-      fbLink:"https://www.facebook.com/parth.saxena.31392",
-      linkedinLink:"https://www.linkedin.com/in/parth-saxena-621826173/"
-    },
-    {
-      src: require("assets/img/default-avatar.png"),
-      altText: "Nagendra Rajput",
-      name: "Nagendra Rajput",
-      category: "Executive Member",
-      fbLink:"https://www.facebook.com/",
-      linkedinLink:"https://www.linkedin.com/"
-    },
-    {
-      src: require("assets/img/default-avatar.png"),
-      altText: "Harshit Jain",
-      name: "Harshit Jain",
-      category: "Executive Member",
-      fbLink:"https://www.facebook.com/",
-      linkedinLink:"https://www.linkedin.com/"
-    }
-    
-  ];
+  const teamMembers = Members;
 
   React.useEffect(() => {
     document.body.classList.add("landing-page");
@@ -167,13 +70,13 @@ function TeamPage() {
                     <Col lg="4" md="4" style={{paddingTop:"50px"}}>
                       <div className="team-player">
                         <img
-                          alt={teamMember.altText}
+                          alt={teamMember.name}
                           className="rounded-circle img-fluid img-raised"
                           src={teamMember.src}
                           style={{maxWidth:"180px", border:"5px solid white", boxShadow:"15px 15px 30px 30px #ccc", borderRadius:"100%"}}
                         ></img>
                         <h4 className="title">{teamMember.name}</h4>
-                        <p className="category text-info">{teamMember.category}</p>
+                        {/* <p className="category text-info">{teamMember.category}</p> */}
                         <Button
                           className="btn-icon btn-round"
                           color="info"

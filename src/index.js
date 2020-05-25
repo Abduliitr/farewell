@@ -27,8 +27,6 @@ import "assets/demo/demo.css";
 import "assets/demo/nucleo-icons-page-styles.css";
 // pages for this kit
 import Index from "views/Index.js";
-import NucleoIcons from "views/NucleoIcons.js";
-import LoginPage from "views/examples/LoginPage.js";
 import TeamPage from "views/examples/TeamPage.js";
 import ProfilePage from "views/examples/ProfilePage.js";
 import './index.css'
@@ -40,10 +38,6 @@ ReactDOM.render(
       {/* <Switch> */}
         <Route path="/index" render={props => <Index {...props} />} />
         <Route
-          path="/nucleo-icons"
-          render={props => <NucleoIcons {...props} />}
-        />
-        <Route
           path="/team-page"
           render={props => <TeamPage {...props} />}
         />
@@ -51,7 +45,6 @@ ReactDOM.render(
           path="/profile-page"
           render={props => <ProfilePage {...props} />}
         />
-        <Route path="/login-page" render={props => <LoginPage {...props} />} />
         <Redirect to="/index" />
         <Redirect from="/" to="/index" />
       {/* </Switch> */}

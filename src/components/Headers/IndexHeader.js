@@ -1,12 +1,8 @@
 /*eslint-disable*/
 import React from "react";
-// import Typist from 'react-typist';
-import Typewriter from 'typewriter-effect';
-// import { ReactRotatingText } from "react-rotating-text";
-
 
 // reactstrap components
-import { Container } from "reactstrap";
+import { Alert, Container } from "reactstrap";
 // core components
 
 function IndexHeader() {

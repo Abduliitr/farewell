@@ -8,18 +8,17 @@ import { Alert, Container } from "reactstrap";
 function Notifications() {
   const [alert1, setAlert1] = React.useState(true);
   const [alert2, setAlert2] = React.useState(true);
-  const [alert3, setAlert3] = React.useState(true);
+  // const [alert3, setAlert3] = React.useState(true);
   const [alert4, setAlert4] = React.useState(true);
   return (
     <>
-      <div className="section section-notifications">
+      <div className="section section-notifications" style={{background:"black"}}>
         <Alert color="success" isOpen={alert1}>
           <Container>
             <div className="alert-icon">
               <i className="now-ui-icons ui-2_like"></i>
             </div>
-            <strong>Well done!</strong> You successfully read this important
-            alert message.
+            <strong>Well done!</strong> You successfully completed your degree.
             <button
               type="button"
               className="close"
@@ -36,8 +35,7 @@ function Notifications() {
             <div className="alert-icon">
               <i className="now-ui-icons travel_info"></i>
             </div>
-            <strong>Heads up!</strong> This alert needs your attention, but it's
-            not super important.
+            <strong>Heads up!</strong> Don't ever forget us, Never !
             <button
               type="button"
               className="close"
@@ -49,7 +47,7 @@ function Notifications() {
             </button>
           </Container>
         </Alert>
-        <Alert color="warning" isOpen={alert3}>
+        {/* <Alert color="warning" isOpen={alert3}>
           <Container>
             <div className="alert-icon">
               <i className="now-ui-icons ui-1_bell-53"></i>
@@ -66,14 +64,13 @@ function Notifications() {
               </span>
             </button>
           </Container>
-        </Alert>
+        </Alert> */}
         <Alert color="danger" isOpen={alert4}>
           <Container>
             <div className="alert-icon">
               <i className="now-ui-icons objects_support-17"></i>
             </div>
-            <strong>Oh snap!</strong> Change a few things up and try submitting
-            again.
+            <strong>See you soon !</strong>
             <button
               type="button"
               className="close"

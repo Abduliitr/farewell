@@ -16,7 +16,7 @@ function Download() {
         <Container>
           {/* TRing to insert location here. */}
           <Row className="justify-content-md-center sharing-area text-center">
-            <Col className="text-center" lg="8" md="12">
+            <Col className="text-center title" lg="8" md="12">
               <h2>Thank you for always supporting us!</h2>
             </Col>
             {/* <Col className="text-center" lg="8" md="12">

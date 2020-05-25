@@ -121,7 +121,7 @@ function ExamplesNavbar() {
             <Nav navbar>
               <NavItem>
                 <NavLink to="/index" tag={Link}>
-                  Back to ChESS Main page
+                  Back to Main page
                 </NavLink>
               </NavItem>
               <NavItem>

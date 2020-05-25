@@ -39,6 +39,7 @@ function IndexHeader() {
             <img
               alt="..."
               className="n-logo"
+              
               src={require("assets/img/iitr-logo.png")}
             ></img>
             {/* <div class="title"> */}

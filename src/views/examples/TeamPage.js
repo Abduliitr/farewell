@@ -60,7 +60,7 @@ function TeamPage() {
       <IndexNavbar2 />
       <div className="wrapper">
         <TeamPageHeader />
-        <div className="section section-team text-center" style={{background:"black", color:"white", border:"5px solid white", borderRadius:"10px"}}>
+        <div className="section section-team text-center title" style={{background:"black", color:"white", border:"5px solid white", borderRadius:"10px"}}>
           <Container>
             <h2 className="title">Dream Team 2019-2020 <i class="fas fa-heart"></i></h2>
             <div className="team"  style={{zIndex:"-100"}} >

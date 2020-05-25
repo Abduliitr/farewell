@@ -3,7 +3,7 @@ import React from "react";
 import Typist from 'react-typist';
 // import Typewriter from 'typewriter-effect';
 // import { ReactRotatingText } from "react-rotating-text";
-// import Snow from 'react-snow-effect';
+import Snow from 'react-snow-effect';
 
 // reactstrap components
 import { Container } from "reactstrap";
@@ -53,7 +53,7 @@ function IndexHeader() {
               <h3><Typist  startDelay="7000" cursor={{hideWhenDone:true, hideWhenDoneDelay:0}}>WE ARE REALLY GONNA MISS YOU A LOT! </Typist><i class="fas fa-heart"></i></h3>
             {/* </div> */}
           </div>
-          {/* <Snow /> */}
+          <Snow />
         </Container>
       </div>
       

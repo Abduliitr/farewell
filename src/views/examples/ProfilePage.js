@@ -18,7 +18,7 @@ import {
 import ExamplesNavbar from "components/Navbars/ExamplesNavbar.js";
 import ProfilePageHeader from "components/Headers/ProfilePageHeader.js";
 import DarkFooter from "components/Footers/DarkFooter.js";
-import Hscroll from "components/Hscroll";
+// import Hscroll from "components/Hscroll";
 
 function ProfilePage() {
   const [pills, setPills] = React.useState("2");
@@ -34,7 +34,7 @@ function ProfilePage() {
   return (
     <>
       <ExamplesNavbar />
-      <Hscroll />
+      {/* <Hscroll /> */}
       <div className="wrapper">
         <ProfilePageHeader />
         <div className="section">

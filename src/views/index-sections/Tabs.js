@@ -97,7 +97,7 @@ function Tabs() {
                         <TabPane tabId="pills1">
                           <Row>
                             <Col xs="3" sm="3" className="d-block d-md-none"></Col>
-                            <Col sm="6" md="3" style={{padding:"10px"}}>
+                            <Col xs="6" sm="6" md="3" style={{padding:"10px"}}>
                                 <img
                                   alt="..."
                                   className="rounded-circle img-raised"
@@ -122,7 +122,7 @@ function Tabs() {
                         <TabPane tabId="pills2">
                           <Row>
                             <Col xs="3" sm="3" className="d-block d-md-none"></Col>
-                            <Col sm="6" md="3" style={{padding:"10px"}}>
+                            <Col xs="6" sm="6" md="3" style={{padding:"10px"}}>
                               <img
                                 alt="..."
                                 className="rounded-circle img-raised"
@@ -147,7 +147,7 @@ function Tabs() {
                         <TabPane tabId="pills3">
                           <Row>
                             <Col xs="3" sm="3" className="d-block d-md-none"></Col>
-                            <Col sm="6" md="3" style={{padding:"10px"}}>
+                            <Col xs="6" sm="6" md="3" style={{padding:"10px"}}>
                               <img
                                 alt="..."
                                 className="rounded-circle img-raised"
@@ -172,7 +172,7 @@ function Tabs() {
                         <TabPane tabId="pills4">
                           <Row>
                             <Col xs="3" sm="3" className="d-block d-md-none"></Col>
-                            <Col sm="6" md="3" style={{padding:"10px"}}>
+                            <Col xs="6" sm="6" md="3" style={{padding:"10px"}}>
                               <img
                                 alt="..."
                                 className="rounded-circle img-raised"

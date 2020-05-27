@@ -108,26 +108,7 @@ function IndexNavbar() {
             navbar
           >
             <Nav navbar>
-              <NavItem>
-                <NavLink 
-                  className="page-scroll"
-                  href="/index"
-                  onClick={e => {
-                    e.preventDefault();
-                    // this.Delay();
-                    // window.setTimeout(()=> {
-                    //   this.history.push('/index')
-                    // },1000)
-                    document
-                      .getElementById("alumni-section")
-                      // setTimeout("1000")
-                      .scrollIntoView();
-                  }}
-                >
-                  <i className="now-ui-icons users_circle-08"></i>
-                  <p>Alumni</p>
-                </NavLink>
-              </NavItem>
+              
               <NavItem>
                 <NavLink 
                   className="page-scroll"

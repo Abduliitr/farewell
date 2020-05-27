@@ -59,7 +59,7 @@ function DarkFooter() {
           </div>
         </div>
         <ModalBody>
-          <a href="/profile-page" target="_blank" onClick={() => setModal2(false)}><h3>ABDULAHAD !<i class="fas fa-heart"></i></h3></a>
+          <a href="/profile-page" style={{color:"white"}} target="_blank" onClick={() => setModal2(false)}><h3>Abdulahad Khan</h3></a>
           {/* <Container> */}
             <Row className="justify-content-md-center text-center">
               <Col className="text-center" lg="12" md="12">

@@ -10,14 +10,14 @@ import IndexHeader from "components/Headers/IndexHeader.js";
 import DarkFooter from "components/Footers/DarkFooter.js";
 
 // sections for this page
-import Video from "./index-sections/Video.js";
-import Images from "./index-sections/Images.js";
-import Alumni from "./index-sections/Alumni.js"
+// import Video from "./index-sections/Video.js";
+// import Images from "./index-sections/Images.js";
+// import Alumni from "./index-sections/Alumni.js"
 import Events from "./index-sections/Events"
 import Tabs from "./index-sections/Tabs.js";
 import Notifications from "./index-sections/Notifications.js";
-import Typography from "./index-sections/Typography.js";
-import Javascript from "./index-sections/Javascript.js";
+// import Typography from "./index-sections/Typography.js";
+// import Javascript from "./index-sections/Javascript.js";
 import Carousel from "./index-sections/Carousel.js";
 import CompleteExamples from "./index-sections/CompleteExamples.js";
 import Examples from "./index-sections/Examples.js";
@@ -51,12 +51,14 @@ function Index() {
         <div className="main">
           {/* <Video /> */}
           {/* <Images /> */}
-          <Alumni />
-          <Events />
-          <Tabs />
-          <Typography />
-          <Javascript />
           <Carousel />
+          <Tabs />
+          {/* <Alumni /> */}
+          <Events />
+          
+          {/* <Typography /> */}
+          {/* <Javascript /> */}
+          
           <CompleteExamples />
           <Examples />
           {/* <Department /> */}

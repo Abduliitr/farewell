@@ -78,7 +78,7 @@ function CarouselSection() {
   return (
     <>
       <div className="section" id="carousel">
-          <h2 style={{textAlign:"center"}}> Our Events </h2>
+          <h2 style={{textAlign:"center"}}> On Special Requests... </h2>
         <Container>
           {/* <div className="title">
             <h4 style={{textAlign:"center"}}>Conducted Events</h4>
@@ -86,7 +86,7 @@ function CarouselSection() {
           <Row className="justify-content-center">
             <Col lg="6" md="6">
                 <div className="title">
-                    <h4 style={{textAlign:"center"}}>Conducted Events</h4>
+                    {/* <h4 style={{textAlign:"center"}}>Conducted Events</h4> */}
                 </div>
               <Carousel
                 activeIndex={activeIndex}
@@ -141,7 +141,7 @@ function CarouselSection() {
 
             <Col lg="6" md="6">
                 <div className="title">
-                    <h4 style={{textAlign:"center"}}>Upcoming Events</h4>
+                    {/* <h4 style={{textAlign:"center"}}>Upcoming Events</h4> */}
                 </div>
               <Carousel
                 activeIndex={activeIndex}

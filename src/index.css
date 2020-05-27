@@ -97,3 +97,20 @@ body {
 
   }
 } */
+
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+html {
+scroll-behavior: smooth;
+}
+*:hover{
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+section{
+  /* float:left; */
+  width:100%;
+  background: #fff;  /* fallback for old browsers */
+  padding:100px 0;
+}

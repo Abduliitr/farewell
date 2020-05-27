@@ -3,6 +3,7 @@ import React from "react";
 // reactstrap components
 import {
   Container,
+  Alert,
   Row,
   Col,
   Carousel,
@@ -14,14 +15,14 @@ import {
 
 const items = [
   {
-    src: require("assets/img/bg1.jpg"),
-    altText: "Nature, United States",
-    caption: "Nature, United States"
+    src: require("assets/img/team-bg-1.jpeg"),
+    altText: "CRY Stall, THOMSO'19",
+    caption: "CRY Stall, THOMSO'19"
   },
   {
-    src: require("assets/img/bg3.jpg"),
-    altText: "Somewhere Beyond, United States",
-    caption: "Somewhere Beyond, United States"
+    src: require("assets/img/team-bg-2.jpeg"),
+    altText: "Health Camp, Majra",
+    caption: "Health Camp, Majra"
   },
   {
     src: require("assets/img/bg4.jpg"),
@@ -57,8 +58,8 @@ function CarouselSection() {
     <>
       <div className="section" id="carousel">
         <Container>
-          <div className="title">
-            <h4>Carousel</h4>
+          <div>
+            <h2 style={{textAlign:"center"}}>Our Group Photos</h2>
           </div>
           <Row className="justify-content-center">
             <Col lg="8" md="12">
@@ -81,7 +82,9 @@ function CarouselSection() {
                     >
                       <img src={item.src} alt={item.altText} />
                       <div className="carousel-caption d-none d-md-block">
-                        <h5>{item.caption}</h5>
+                        <Alert style={{background:"black", opacity:"0.9", borderRadius:"5%", marginBottom:"0", padding:"0"}}>
+                            <strong className="title"><h3 style={{margin:"6px"}}>{item.caption}</h3></strong>
+                        </Alert>
                       </div>
                     </CarouselItem>
                   );

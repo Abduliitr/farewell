@@ -1,19 +1,14 @@
 import React from "react";
 import {
-
-  Collapse,
   NavbarBrand,
   Navbar,
-  NavItem,
-  NavLink,
-  Nav,
   Container
 } from "reactstrap";
 import Hscroll from "components/Hscroll";
 
 function IndexNavbar() {
   const [navbarColor, setNavbarColor] = React.useState("navbar-transparent");
-  const [collapseOpen, setCollapseOpen] = React.useState(false);
+  // const [collapseOpen, setCollapseOpen] = React.useState(false);
 
   React.useEffect(() => {
     const updateNavbarColor = () => {

@@ -114,3 +114,15 @@ section{
   background: #fff;  /* fallback for old browsers */
   padding:100px 0;
 }
+
+@media (max-width:979){
+  .footer{
+    padding-bottom: 60px;
+  }
+}
+
+@media (max-width:600){
+  .footer{
+    padding-bottom: 50px;
+  }
+}

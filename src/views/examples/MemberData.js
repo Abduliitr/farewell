@@ -48,10 +48,10 @@ export const Members = [
       linkedinLink:"https://linkedin.com/in/"
     },
     {
-      src: require("assets/img/team/default-avatar.png"),
-      name: "Vivek",
-      fbLink:"https://www.facebook.com/",
-      linkedinLink:"https://linkedin.com/in/"
+      src: require("assets/img/team/viveks.jpg"),
+      name: "Vivek Shree Pranjal",
+      fbLink:"https://www.facebook.com/vivek.shree.5209",
+      linkedinLink:"https://www.linkedin.com/in/vivek-s-67b0501ab"
     },
     {
       src: require("assets/img/team/athar.jpg"),

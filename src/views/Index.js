@@ -16,7 +16,7 @@ import DarkFooter from "components/Footers/DarkFooter.js";
 import Events from "./index-sections/Events"
 import Tabs from "./index-sections/Tabs.js";
 import Notifications from "./index-sections/Notifications.js";
-// import Typography from "./index-sections/Typography.js";
+import Typography from "./index-sections/Typography.js";
 // import Javascript from "./index-sections/Javascript.js";
 import Carousel from "./index-sections/Carousel.js";
 import CompleteExamples from "./index-sections/CompleteExamples.js";
@@ -56,7 +56,7 @@ function Index() {
           {/* <Alumni /> */}
           <Events />
           
-          {/* <Typography /> */}
+          <Typography />
           {/* <Javascript /> */}
           
           <CompleteExamples />

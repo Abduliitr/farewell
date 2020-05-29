@@ -1,5 +1,7 @@
 import React from "react";
 
+import Seniors from './Seniors';
+
 // reactstrap components
 import {
   Card,
@@ -23,11 +25,12 @@ function Tabs() {
     <>
       <div className="section section-tabs" id="studentsCorner">
         <h2 style={{textAlign:"center",paddingTop:"50px"}}>Student's Corner</h2>
+
+        <Seniors />
+
         <Container>
           <p className="category" style={{textAlign:"center"}}>Messages from seniors...</p>
           <Row>
-            {/* <Col xs="3" sm="3" md="0" className="d-block d-md-none"></Col> */}
-            
             <Col className="ml-auto mr-auto" sm="12" md="12">
                 
                 

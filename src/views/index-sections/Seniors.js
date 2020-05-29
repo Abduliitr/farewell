@@ -296,6 +296,7 @@ class Seniors extends Component {
                 // modalClassName="modal-info"
                 // toggle={() => setModal2(false)}
                 isOpen={this.state.modal}
+                style={{paddingBottom:"50px"}}
               >
                 <ModalBody>
                     {console.log("selected Member Id is " + this.state.selectedMemberId)}

@@ -29,7 +29,7 @@ function Tabs() {
         <Seniors />
 
         <Container>
-          <p className="category" style={{textAlign:"center"}}>Messages from seniors...</p>
+          <p className="category" style={{textAlign:"center"}}>Messages from Super seniors...</p>
           <Row>
             <Col className="ml-auto mr-auto" sm="12" md="12">
                 
@@ -51,7 +51,7 @@ function Tabs() {
                               setPills("1");
                             }}
                           >
-                            Dinkey
+                            Benison
                           </NavLink>
                         </NavItem>
                         <NavItem>
@@ -63,7 +63,7 @@ function Tabs() {
                               setPills("2");
                             }}
                           >
-                            Pranjala
+                            Ankur
                           </NavLink>
                         </NavItem>
                         <NavItem>
@@ -75,7 +75,7 @@ function Tabs() {
                               setPills("3");
                             }}
                           >
-                            Sravani
+                            Iqbal
                           </NavLink>
                         </NavItem>
                         <NavItem>
@@ -129,7 +129,7 @@ function Tabs() {
                               <img
                                 alt="..."
                                 className="rounded-circle img-raised"
-                                src={require("assets/img/eva.jpg")}
+                                src={require("assets/img/team/pranjala.jpg")}
                               ></img>
                               
                             </Col>
@@ -179,7 +179,7 @@ function Tabs() {
                               <img
                                 alt="..."
                                 className="rounded-circle img-raised"
-                                src={require("assets/img/disha.jpeg")}
+                                src={require("assets/img/team/sunil.jpg")}
                               ></img>
                               
                             </Col>                          

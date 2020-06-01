@@ -8,7 +8,7 @@ class MobileLoader extends Component {
                 <div className="row">
                     <div className="col-12 col-md-4"></div>
                     <div className="col-12 col-md-4 title">
-                        <img src={require('assets/img/loader2.gif')} style={{height:"100%", border:"none"}}  alt="IMAGE NOT FOUND"/>
+                        <img src={require('assets/img/loader3.gif')} style={{height:"100%", border:"none"}}  alt="IMAGE NOT FOUND"/>
                         <h3>It's Loading!</h3>
                         {console.log("loading section time!")}
                         {/* {setTimeout(() => {

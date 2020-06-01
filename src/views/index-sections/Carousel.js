@@ -67,6 +67,7 @@ function CarouselSection() {
                 activeIndex={activeIndex}
                 next={next}
                 previous={previous}
+                data-interval="2000"
               >
                 <CarouselIndicators
                   items={items}

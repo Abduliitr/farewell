@@ -24,7 +24,7 @@ class Seniors extends Component {
                 id:0,
                 imgUrl1: require("assets/img/team/default-avatar.png"),
                 imgUrl2: require("assets/img/team/default-avatar.png"),
-                name: "Dinkey Mahawar",
+                name: "Dinkey",
                 comments: [
                     {
                         author: "Abdulahad",
@@ -40,7 +40,7 @@ class Seniors extends Component {
                 id:1,  
                 imgUrl1: require("assets/img/team/default-avatar.png"),
                 imgUrl2: require("assets/img/team/default-avatar.png"),
-                name: "Sravani Sathupati",
+                name: "Sravani",
                 comments: [
                     {
                         author: "Abdulahad",
@@ -56,7 +56,7 @@ class Seniors extends Component {
                 id:2,
                 imgUrl1: require("assets/img/team/tikesh.jpg"),
                 imgUrl2: require("assets/img/team/default-avatar.png"),
-                name: "Tikesh Kumar",
+                name: "Tikesh",
                 comments: [
                     {
                         author: "Abdulahad",
@@ -72,7 +72,7 @@ class Seniors extends Component {
                 id:3,
                 imgUrl1: require("assets/img/team/default-avatar.png"),
                 imgUrl2: require("assets/img/team/default-avatar.png"),
-                name: "Ayushi Joshi",
+                name: "Ayushi",
                 comments: [
                     {
                         author: "Abdulahad",
@@ -88,7 +88,7 @@ class Seniors extends Component {
                 id:4,
                 imgUrl1: require("assets/img/team/default-avatar.png"),
                 imgUrl2: require("assets/img/team/default-avatar.png"),
-                name: "Lalit Kumar",
+                name: "Lalit",
                 comments: [
                     {
                         author: "Abdulahad",
@@ -120,7 +120,7 @@ class Seniors extends Component {
                 id:6,
                 imgUrl1: require("assets/img/team/Deepak.jpg"),
                 imgUrl2: require("assets/img/team/default-avatar.png"),
-                name: "Deepak das",
+                name: "Deepak",
                 comments: [
                     {
                         author: "Abdulahad",
@@ -136,7 +136,7 @@ class Seniors extends Component {
                 id:7,
                 imgUrl1: require("assets/img/team/sajal.jpg"),
                 imgUrl2: require("assets/img/team/default-avatar.png"),
-                name: "Sajal pandey",
+                name: "Sajal",
                 comments: [
                     {
                         author: "Abdulahad",
@@ -200,7 +200,7 @@ class Seniors extends Component {
                 id:11,
                 imgUrl1: require("assets/img/team/default-avatar.png"),
                 imgUrl2: require("assets/img/team/default-avatar.png"),
-                name: "Alamjot Singh",
+                name: "Alamjot",
                 comments: [
                     {
                         author: "Abdulahad",
@@ -216,7 +216,7 @@ class Seniors extends Component {
                 id:12,
                 imgUrl1: require("assets/img/team/pranjala.jpg"),
                 imgUrl2: require("assets/img/team/default-avatar.png"),
-                name: "Pranjala Tiwari",
+                name: "Pranjala",
                 comments: [
                     {
                         author: "Abdulahad",
@@ -232,7 +232,7 @@ class Seniors extends Component {
                 id:13,
                 imgUrl1: require("assets/img/team/sunil.jpg"),
                 imgUrl2: require("assets/img/team/default-avatar.png"),
-                name: "Sunil Babu P",
+                name: "Sunil",
                 comments: [
                     {
                         author: "Abdulahad",
@@ -248,7 +248,7 @@ class Seniors extends Component {
                 id:14,
                 imgUrl1: require("assets/img/team/ankit.jpg"),
                 imgUrl2: require("assets/img/team/default-avatar.png"),
-                name: "Ankit Nagar",
+                name: "Ankit",
                 comments: [
                     {
                         author: "Abdulahad",
@@ -264,7 +264,7 @@ class Seniors extends Component {
                 id:15,
                 imgUrl1: require("assets/img/team/akshi.jpg"),
                 imgUrl2: require("assets/img/team/default-avatar.png"),
-                name: "Akshi Bajaj",
+                name: "Akshi",
                 comments: [
                     {
                         author: "Abdulahad",
@@ -338,19 +338,21 @@ class Seniors extends Component {
                             return (
                                 <Col xs="3" sm="2" style={{padding:"2px"}} className="">
                                     <div className="flip-box">
-                                        <div className="flip-box-inner">
-                                            <div className="flip-box-front">
+                                        <div className="flip-box-inner"  style={{borderRadius:"50%"}}>
+                                            <div className="flip-box-front"  style={{borderRadius:"50%"}}>
                                                 <img
                                                     alt="..."
-                                                    className="rounded"
+                                                    // className="rounded"
+                                                    style={{borderRadius:"50%"}}
                                                     src={member.imgUrl1}
                                                     ></img>
                                                 <Badge className="badge-info">{member.name}</Badge>
                                             </div>
-                                            <div className="flip-box-back">
+                                            <div className="flip-box-back" style={{borderRadius:"50%"}}>
                                                 <img
                                                     alt="..."
-                                                    className="rounded"
+                                                    // className="rounded"
+                                                    style={{borderRadius:"50%"}}
                                                     src={member.imgUrl2}
                                                     ></img>
                                                   
@@ -371,25 +373,27 @@ class Seniors extends Component {
                                                 <Badge className="badge-info">Messages</Badge>
                                             </div>
                                         </div>
-                                    </div>
+                                        </div>
                                 </Col>
                             );
                         })}
                         <Col xs="3" sm="2" style={{padding:"2px"}} className="d-none d-sm-block">
                             <div className="flip-box">
-                                <div className="flip-box-inner">
-                                    <div className="flip-box-front">
+                                <div className="flip-box-inner" style={{borderRadius:"50%"}}>
+                                    <div className="flip-box-front" style={{borderRadius:"50%"}}>
                                         <img
                                             alt="..."
-                                            className="rounded"
+                                            // className="rounded"
+                                            style={{borderRadius:"50%"}}
                                             src={require("assets/img/team/default-avatar.png")}
                                             ></img>
                                             <Badge className="badge-info">Empty</Badge>
                                     </div>
-                                    <div className="flip-box-back">
+                                    <div className="flip-box-back" style={{borderRadius:"50%"}}>
                                         <img
                                             alt="..."
-                                            className="rounded"
+                                            // className="rounded"
+                                            style={{borderRadius:"50%"}}
                                             src={require("assets/img/team/default-avatar.png")}
                                             ></img>
                                         <div className="carousel-caption">
@@ -407,19 +411,21 @@ class Seniors extends Component {
                         </Col>
                         <Col xs="3" sm="2" style={{padding:"2px"}} className="d-none d-sm-block">
                             <div className="flip-box">
-                                <div className="flip-box-inner">
-                                    <div className="flip-box-front">
+                                <div className="flip-box-inner" style={{borderRadius:"50%"}}>
+                                    <div className="flip-box-front" style={{borderRadius:"50%"}}>
                                         <img
                                             alt="..."
-                                            className="rounded"
+                                            // className="rounded"
+                                            style={{borderRadius:"50%"}}
                                             src={require("assets/img/team/default-avatar.png")}
                                             ></img>
                                             <Badge className="badge-info">Space</Badge>
                                     </div>
-                                    <div className="flip-box-back">
+                                    <div className="flip-box-back" style={{borderRadius:"50%"}}>
                                         <img
                                             alt="..."
-                                            className="rounded"
+                                            // className="rounded"
+                                            style={{borderRadius:"50%"}}
                                             src={require("assets/img/team/default-avatar.png")}
                                             ></img>
                                         <div className="carousel-caption">

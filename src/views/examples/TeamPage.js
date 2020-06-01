@@ -3,6 +3,8 @@ import ParticlesBg from "particles-bg";
 import icon from "./icon";
 import {Members} from './MemberData';
 
+import FadeIn from 'react-fade-in';
+
 // reactstrap components
 import {
   Button,
@@ -58,6 +60,7 @@ function TeamPage() {
     <>
       {/* <ExamplesNavbar /> */}
       <IndexNavbar2 />
+      <FadeIn>
       <div className="wrapper">
         <TeamPageHeader />
         <div className="section section-team text-center title" style={{background:"black", color:"white", border:"5px solid white", borderRadius:"10px"}}>
@@ -194,6 +197,7 @@ function TeamPage() {
         </div> */}
         <DarkFooter />
       </div>
+      </FadeIn>
     </>
   );
 }

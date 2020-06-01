@@ -1,6 +1,6 @@
 // import React from "react";
 import React, { Component } from 'react';
-import FadeIn from 'react-fade-in';
+// import FadeIn from 'react-fade-in';
 
 // core components
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
@@ -52,7 +52,7 @@ class Index extends Component {
 
       <>
         <IndexNavbar />
-        <FadeIn>
+        {/* <FadeIn> */}
           <div className="wrapper">
             <IndexHeader />
             <Notifications />
@@ -68,7 +68,7 @@ class Index extends Component {
             <DarkFooter />
           </div>
           {console.log("isLoading: " + this.state.isLoading)}
-        </FadeIn>
+        {/* </FadeIn> */}
       </>
       : 
 

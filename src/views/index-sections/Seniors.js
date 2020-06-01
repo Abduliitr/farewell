@@ -371,7 +371,7 @@ class Seniors extends Component {
                                                 <Badge className="badge-info">Messages</Badge>
                                             </div>
                                         </div>
-                                        </div>
+                                    </div>
                                 </Col>
                             );
                         })}

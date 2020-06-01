@@ -150,6 +150,14 @@ section{
   transform: rotateY(180deg);
 }
 
+/* rotateX for teamPage */
+
+.flip-box-team:hover .flip-box-inner-team {
+  transform: rotateX(180deg);
+}
+
+/* end */
+
 .flip-box-front, .flip-box-back {
   
   width: 100%;

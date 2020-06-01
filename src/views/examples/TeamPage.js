@@ -68,13 +68,30 @@ function TeamPage() {
                 {teamMembers.map(teamMember=> {
                   return(
                     <Col lg="4" md="4" style={{paddingTop:"50px"}}>
+
                       <div className="team-player">
-                        <img
-                          alt={teamMember.name}
-                          className="rounded-circle img-fluid img-raised"
-                          src={teamMember.src}
-                          style={{maxWidth:"180px", border:"5px solid white", boxShadow:"15px 15px 30px 30px #ccc", borderRadius:"100%"}}
-                        ></img>
+                        <div className="flip-box flip-box-team">
+                          <div className="flip-box-inner flip-box-inner-team" style={{opacity:"1"}}>
+                            <div className="flip-box-front" style={{backgroundColor:"#000",opacity:"1"}}>
+                              <img
+                                alt={teamMember.name}
+                                className="rounded-circle img-fluid img-raised"
+                                src={teamMember.src}
+                                style={{maxWidth:"180px", border:"5px solid white", boxShadow:"15px 15px 30px 30px #ccc", borderRadius:"100%"}}
+                              ></img>
+                            </div>
+                            <div className="flip-box-back" style={{backgroundColor:"rgba(0,0,0,0)",opacity:"1"}}>
+                              <img 
+                                alt={teamMember.name}
+                                className="rounded-circle img-fluid img-raised"
+                                src={teamMember.src}
+                                style={{maxWidth:"180px", border:"5px solid white", boxShadow:"15px 15px 30px 30px #ccc", borderRadius:"100%"}}
+                              ></img>  
+                            </div>
+                          </div>
+                        </div>
+                          
+                        
                         <h4 className="title">{teamMember.name}</h4>
                         {/* <p className="category text-info">{teamMember.category}</p> */}
                         <Button

@@ -1,12 +1,12 @@
 export const Members = [
   {
-    src: require("assets/img/team/default-avatar.png"),
+    src: require("assets/img/team/dinkey.png"),
     name: "Dinkey Mahawar",
     fbLink:"https://www.facebook.com/profile.php?id=100013816158199",
     linkedinLink:"https://www.linkedin.com/in/dinkey-mahawar-13ab67125"
   },
   {
-      src: require("assets/img/team/default-avatar.png"),
+      src: require("assets/img/team/sravani.png"),
       name: "Mahitha Sravani Sathupati",
       fbLink:"https://www.facebook.com/mahithasravani.sathupati",
       linkedinLink:"https://linkedin.com/in/"
@@ -18,19 +18,19 @@ export const Members = [
       linkedinLink:"https://linkedin.com/in/"
     },
     {
-      src: require("assets/img/team/default-avatar.png"),
+      src: require("assets/img/team/ayushi.jpg"),
       name: "Ayushi Joshi",
       fbLink:"https://www.facebook.com/",
       linkedinLink:"https://linkedin.com/in/"
     },
     {
-      src: require("assets/img/team/default-avatar.png"),
+      src: require("assets/img/team/lalit.png"),
       name: "Lalit Kumar",
       fbLink:"https://www.facebook.com/profile.php?id=100013299780244",
       linkedinLink:"https://linkedin.com/in/"
     },
     {
-      src: require("assets/img/team/default-avatar.png"),
+      src: require("assets/img/team/anoop.png"),
       name: "Anoop",
       fbLink:"https://www.facebook.com/profile.php?id=100009371717274",
       linkedinLink:"https://linkedin.com/in/"
@@ -60,7 +60,7 @@ export const Members = [
       linkedinLink:"https://linkedin.com/in/kapil-birthala/"
     },
     {
-      src: require("assets/img/team/default-avatar.png"),
+      src: require("assets/img/team/komal.png"),
       name: "Komal ",
       fbLink:"https://www.facebook.com/",
       linkedinLink:"https://linkedin.com/in/"
@@ -102,7 +102,7 @@ export const Members = [
       linkedinLink:"https://www.linkedin.com/in/saurabhSinghGautam228"
     },
     {
-      src: require("assets/img/team/utkarsh.JPG"),
+      src: require("assets/img/team/utkarsh.jpg"),
       name: "Utkarsh Mishra",
       fbLink:"https://www.facebook.com/utkarsh.mishra.7330763",
       linkedinLink:"https://www.linkedin.com/in/utkarsh-mishra-13b230157/"
@@ -120,13 +120,13 @@ export const Members = [
       linkedinLink:"https://www.linkedin.com/in/keshvam/"
     },
     {
-      src: require("assets/img/team/prabhakar.jpg"),
+      src: require("assets/img/team/prabhakar.jpeg"),
       name: "Prabhakar kumar ",
       fbLink:"https://www.facebook.com/profile.php?id=100009371717274",
       linkedinLink:"https://www.linkedin.com/in/prabhakar-kumar-623721151"
     },
     {
-      src: require("assets/img/team/vikash.jpg"),
+      src: require("assets/img/team/vikas.png"),
       name: "Vikash kumar",
       fbLink:"https://www.facebook.com/profile.php?id=100011243643239",
       linkedinLink:"https://www.linkedin.com/in/vikash-kumar-897345179/"
@@ -144,7 +144,7 @@ export const Members = [
       linkedinLink:"https://www.linkedin.com/in/rahul-ranjan-5479b1192"
     },
     {
-      src: require("assets/img/team/rajkumar.JPG"),
+      src: require("assets/img/team/rajkumar.png"),
       name:"Rajkumar Khichar",
       fbLink:"https://www.facebook.com/rajkumar.khichar.75",
       linkedinLink:"https://www.linkedin.com/in/rajkumar-khichar-95ba1619b"
@@ -192,7 +192,7 @@ export const Members = [
       linkedinLink:"https://www.linkedin.com/in/jai-rathore-b3ab601a4"
     },
     {
-      src: require("assets/img/team/manju.jpg"),
+      src: require("assets/img/team/manju.png"),
       name: "Manju Choudhary",
       fbLink:"https://www.facebook.com/",
       linkedinLink:"https://linkedin.com/in/"

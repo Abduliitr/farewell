@@ -2,13 +2,13 @@ import React from "react";
 import {
   NavbarBrand,
   Navbar,
-  Container
+  Container,
+  UncontrolledTooltip
 } from "reactstrap";
 import Hscroll from "components/Hscroll";
 
 function IndexNavbar() {
   const [navbarColor, setNavbarColor] = React.useState("navbar-transparent");
-  // const [collapseOpen, setCollapseOpen] = React.useState(false);
 
   React.useEffect(() => {
     const updateNavbarColor = () => {
@@ -44,11 +44,13 @@ function IndexNavbar() {
               href="/index"
               style={{textShadow:"0 0 10px #ff006c, 0 0 20px #ff006c, 0 0 30px #ff006c, 0 0 40px #ff417d, 0 0 70px #ff417d, 0 0 80px #ff417d, 0 0 100px #ff417d, 0 0 150px #ff417d"}}
             >
-              {/* <img src={require('assets/img/logo.png')} style={{borderRadius:'50%'}} width="30" height="30" alt="" /> */}
               <i className="fa fa-heartbeat" style={{fontSize:"28px"}}></i>
               {"  "}{"  "}
               CRY IIT ROORKEE
             </NavbarBrand>
+            <UncontrolledTooltip target="#navbar-brand">
+              Designed and Coded by Abdulahad.
+            </UncontrolledTooltip>
           </div>
         </Container>
         

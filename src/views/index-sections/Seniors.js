@@ -20,26 +20,11 @@ class Seniors extends Component {
         },
         members:[
             
-            {
-                id:0,
-                imgUrl1: require("assets/img/team/default-avatar.png"),
-                imgUrl2: require("assets/img/team/default-avatar.png"),
-                name: "Dinkey",
-                comments: [
-                    {
-                        author: "Abdulahad",
-                        comment: "THis is for comments1. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-                    },
-                    {
-                        author: "Second Author",
-                        comment: "Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth."
-                    }
-                ]
-            },
+            
             {
                 id:1,  
-                imgUrl1: require("assets/img/team/default-avatar.png"),
-                imgUrl2: require("assets/img/team/default-avatar.png"),
+                imgUrl1: require("assets/img/team/sravani.png"),
+                imgUrl2: require("assets/img/team/sravani.jpg"),
                 name: "Sravani",
                 comments: [
                     {
@@ -53,10 +38,10 @@ class Seniors extends Component {
                 ]
             },
             {
-                id:2,
-                imgUrl1: require("assets/img/team/tikesh.jpg"),
-                imgUrl2: require("assets/img/team/default-avatar.png"),
-                name: "Tikesh",
+                id:14,
+                imgUrl1: require("assets/img/team/ankit.jpg"),
+                imgUrl2: require("assets/img/team/ankit.png"),
+                name: "Ankit",
                 comments: [
                     {
                         author: "Abdulahad",
@@ -70,8 +55,8 @@ class Seniors extends Component {
             },
             {
                 id:3,
-                imgUrl1: require("assets/img/team/default-avatar.png"),
-                imgUrl2: require("assets/img/team/default-avatar.png"),
+                imgUrl1: require("assets/img/team/ayushi.jpg"),
+                imgUrl2: require("assets/img/team/ayushi.png"),
                 name: "Ayushi",
                 comments: [
                     {
@@ -84,11 +69,12 @@ class Seniors extends Component {
                     }
                 ]
             },
+            
             {
-                id:4,
-                imgUrl1: require("assets/img/team/default-avatar.png"),
-                imgUrl2: require("assets/img/team/default-avatar.png"),
-                name: "Lalit",
+                id:0,
+                imgUrl1: require("assets/img/team/dinkey.png"),
+                imgUrl2: require("assets/img/team/dinkey.jpg"),
+                name: "Dinkey",
                 comments: [
                     {
                         author: "Abdulahad",
@@ -102,8 +88,8 @@ class Seniors extends Component {
             },
             {
                 id:5,
-                imgUrl1: require("assets/img/team/default-avatar.png"),
-                imgUrl2: require("assets/img/team/default-avatar.png"),
+                imgUrl1: require("assets/img/team/anoop.png"),
+                imgUrl2: require("assets/img/team/anoop.jpg"),
                 name: "Anoop",
                 comments: [
                     {
@@ -119,8 +105,56 @@ class Seniors extends Component {
             {
                 id:6,
                 imgUrl1: require("assets/img/team/Deepak.jpg"),
-                imgUrl2: require("assets/img/team/default-avatar.png"),
+                imgUrl2: require("assets/img/team/deepak1.jpg"),
                 name: "Deepak",
+                comments: [
+                    {
+                        author: "Abdulahad",
+                        comment: "THis is for comments1. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+                    },
+                    {
+                        author: "Second Author",
+                        comment: "Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth."
+                    }
+                ]
+            },
+            {
+                id:10,
+                imgUrl1: require("assets/img/team/komal.png"),
+                imgUrl2: require("assets/img/team/komal.jpeg"),
+                name: "Komal ",
+                comments: [
+                    {
+                        author: "Abdulahad",
+                        comment: "THis is for comments1. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+                    },
+                    {
+                        author: "Second Author",
+                        comment: "Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth."
+                    }
+                ]
+            },
+            {
+                id:12,
+                imgUrl1: require("assets/img/team/pranjala.jpg"),
+                imgUrl2: require("assets/img/team/pranjala.png"),
+                name: "Pranjala",
+                comments: [
+                    {
+                        author: "Abdulahad",
+                        comment: "THis is for comments1. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+                    },
+                    {
+                        author: "Second Author",
+                        comment: "Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth."
+                    }
+                ]
+            },
+            {
+                id:2,
+                imgUrl1: require("assets/img/team/tikesh.jpg"),
+                imgUrl2: require("assets/img/team/tikesh.png"),
+                name: "Tikesh",
                 comments: [
                     {
                         author: "Abdulahad",
@@ -135,7 +169,7 @@ class Seniors extends Component {
             {
                 id:7,
                 imgUrl1: require("assets/img/team/sajal.jpg"),
-                imgUrl2: require("assets/img/team/default-avatar.png"),
+                imgUrl2: require("assets/img/team/sajal.png"),
                 name: "Sajal",
                 comments: [
                     {
@@ -151,7 +185,7 @@ class Seniors extends Component {
             {
                 id:8,
                 imgUrl1: require("assets/img/team/viveks.jpg"),
-                imgUrl2: require("assets/img/team/default-avatar.png"),
+                imgUrl2: require("assets/img/team/vivek2.jpg"),
                 name: "Vivek ",
                 comments: [
                     {
@@ -167,7 +201,7 @@ class Seniors extends Component {
             {
                 id:9,
                 imgUrl1: require("assets/img/team/athar.jpg"),
-                imgUrl2: require("assets/img/team/default-avatar.png"),
+                imgUrl2: require("assets/img/team/athar.png"),
                 name: "Athar",
                 comments: [
                     {
@@ -180,22 +214,7 @@ class Seniors extends Component {
                     }
                 ]
             },
-            {
-                id:10,
-                imgUrl1: require("assets/img/team/default-avatar.png"),
-                imgUrl2: require("assets/img/team/default-avatar.png"),
-                name: "Komal ",
-                comments: [
-                    {
-                        author: "Abdulahad",
-                        comment: "THis is for comments1. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-                    },
-                    {
-                        author: "Second Author",
-                        comment: "Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth."
-                    }
-                ]
-            },
+            
             {
                 id:11,
                 imgUrl1: require("assets/img/team/default-avatar.png"),
@@ -213,10 +232,10 @@ class Seniors extends Component {
                 ]
             },
             {
-                id:12,
-                imgUrl1: require("assets/img/team/pranjala.jpg"),
-                imgUrl2: require("assets/img/team/default-avatar.png"),
-                name: "Pranjala",
+                id:4,
+                imgUrl1: require("assets/img/team/lalit.jpg"),
+                imgUrl2: require("assets/img/team/lalit.png"),
+                name: "Lalit",
                 comments: [
                     {
                         author: "Abdulahad",
@@ -230,8 +249,8 @@ class Seniors extends Component {
             },
             {
                 id:13,
-                imgUrl1: require("assets/img/team/sunil.jpg"),
-                imgUrl2: require("assets/img/team/default-avatar.png"),
+                imgUrl1: require("assets/img/team/sunil.png"),
+                imgUrl2: require("assets/img/team/sunil.jpg"),
                 name: "Sunil",
                 comments: [
                     {
@@ -244,26 +263,11 @@ class Seniors extends Component {
                     }
                 ]
             },
-            {
-                id:14,
-                imgUrl1: require("assets/img/team/ankit.jpg"),
-                imgUrl2: require("assets/img/team/default-avatar.png"),
-                name: "Ankit",
-                comments: [
-                    {
-                        author: "Abdulahad",
-                        comment: "THis is for comments1. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-                    },
-                    {
-                        author: "Second Author",
-                        comment: "Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth."
-                    }
-                ]
-            },
+            
             {
                 id:15,
-                imgUrl1: require("assets/img/team/akshi.jpg"),
-                imgUrl2: require("assets/img/team/default-avatar.png"),
+                imgUrl1: require("assets/img/team/akshi.png"),
+                imgUrl2: require("assets/img/team/akshi.jpg"),
                 name: "Akshi",
                 comments: [
                     {
@@ -384,26 +388,18 @@ class Seniors extends Component {
                                         <img
                                             alt="..."
                                             // className="rounded"
-                                            style={{borderRadius:"50%"}}
-                                            src={require("assets/img/team/default-avatar.png")}
+                                            style={{borderRadius:"50%", opacity:".85"}}
+                                            src={require("assets/img/team/child.jpg")}
                                             ></img>
-                                            <Badge className="badge-info">Empty</Badge>
+                                            <Badge className="badge-info">Thank</Badge>
                                     </div>
                                     <div className="flip-box-back" style={{borderRadius:"50%"}}>
                                         <img
                                             alt="..."
                                             // className="rounded"
                                             style={{borderRadius:"50%"}}
-                                            src={require("assets/img/team/default-avatar.png")}
+                                            src={require("assets/img/team/thanks.png")}
                                             ></img>
-                                        <div className="carousel-caption">
-                                            <Alert style={{background:"black", opacity:"0.9", borderRadius:"5%", marginBottom:"2px", padding:"0"}}>
-                                                <strong className="title" style={{padding:"0"}}>
-                                                    {/* <h6 className=" d-none d-md-block" style={{padding:"5px"}}>{member.name}</h6> */}
-                                                    <Badge className="badge-info">CLICK ME!</Badge>
-                                                </strong>
-                                            </Alert>
-                                        </div>
                                         <Badge className="badge-info">Messages</Badge>
                                     </div>
                                 </div>
@@ -416,26 +412,18 @@ class Seniors extends Component {
                                         <img
                                             alt="..."
                                             // className="rounded"
-                                            style={{borderRadius:"50%"}}
-                                            src={require("assets/img/team/default-avatar.png")}
+                                            style={{borderRadius:"50%", opacity:".85"}}
+                                            src={require("assets/img/team/boy-child.png")}
                                             ></img>
-                                            <Badge className="badge-info">Space</Badge>
+                                            <Badge className="badge-info">You!</Badge>
                                     </div>
                                     <div className="flip-box-back" style={{borderRadius:"50%"}}>
                                         <img
                                             alt="..."
                                             // className="rounded"
                                             style={{borderRadius:"50%"}}
-                                            src={require("assets/img/team/default-avatar.png")}
+                                            src={require("assets/img/team/thanks2.png")}
                                             ></img>
-                                        <div className="carousel-caption">
-                                            <Alert style={{background:"black", opacity:"0.9", borderRadius:"5%", marginBottom:"2px", padding:"0"}}>
-                                                <strong className="title" style={{padding:"0"}}>
-                                                    {/* <h6 className=" d-none d-md-block" style={{padding:"5px"}}>{member.name}</h6> */}
-                                                    <Badge className="badge-info">CLICK ME!</Badge>
-                                                </strong>
-                                            </Alert>
-                                        </div>
                                         <Badge className="badge-info">Messages</Badge>
                                     </div>
                                 </div>

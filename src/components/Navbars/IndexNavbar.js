@@ -1,30 +1,22 @@
 import React from "react";
-// import { Link } from "react-router-dom";
+
 // reactstrap components
 import {
-  // Button,
   Collapse,
-  // DropdownToggle,
-  // DropdownMenu,
-  // DropdownItem,
-  // UncontrolledDropdown,
   NavbarBrand,
   Navbar,
   NavItem,
   NavLink,
   Nav,
-  Container
-  // UncontrolledTooltip
+  Container,
+  UncontrolledTooltip
 } from "reactstrap";
+
 import Hscroll from "components/Hscroll";
 
 function IndexNavbar() {
   const [navbarColor, setNavbarColor] = React.useState("navbar-transparent");
   const [collapseOpen, setCollapseOpen] = React.useState(false);
-
-  // React.useEffect(() => {
-    
-  // })
 
   React.useEffect(() => {
     const updateNavbarColor = () => {
@@ -70,24 +62,19 @@ function IndexNavbar() {
               style={{textShadow:"0 0 10px #ff006c, 0 0 20px #ff006c, 0 0 30px #ff006c, 0 0 40px #ff417d, 0 0 70px #ff417d, 0 0 80px #ff417d, 0 0 100px #ff417d, 0 0 150px #ff417d"}}
               onClick={e => {
                 e.preventDefault();
-                // this.Delay();
-                // window.setTimeout(()=> {
-                //   this.history.push('/index')
-                // },1000)
                 document
                   .getElementById("main-head")
                   // setTimeout("1000")
                   .scrollIntoView();
               }}
             >
-              {/* <img src={require('assets/img/logo.png')} style={{borderRadius:'50%'}} width="30" height="30" alt="" /> */}
               <i className="fa fa-heartbeat" style={{fontSize:"28px"}}></i>
               {"  "}{"  "}
               CRY IIT ROORKEE
             </NavbarBrand>
-            {/* <UncontrolledTooltip target="#navbar-brand">
+            <UncontrolledTooltip target="#navbar-brand">
               Designed and Coded by Abdulahad.
-            </UncontrolledTooltip> */}
+            </UncontrolledTooltip>
             <button
               className="navbar-toggler navbar-toggler"
               onClick={() => {
@@ -124,22 +111,6 @@ function IndexNavbar() {
                   <p>Events</p>
                 </NavLink>
               </NavItem>
-              {/* <NavItem>
-                <NavLink 
-                  className="page-scroll"
-                  href="https://www.iitr.ac.in/departments/CH/pages/People.html"
-                  target="_blank"
-                  // onClick={e => {
-                  //   e.preventDefault();
-                  //   document
-                  //     .getElementById("carousel")
-                  //     .scrollIntoView();
-                  // }}
-                >
-                  <i className="now-ui-icons business_briefcase-24"></i>
-                  <p>Staffs</p>
-                </NavLink>
-              </NavItem> */}
               <NavItem>
                 <NavLink 
                   className="page-scroll"
@@ -174,61 +145,14 @@ function IndexNavbar() {
                 <NavLink 
                   className="page-scroll"
                   href="/team-page"
-                  // onClick={e => {
-                  //   e.preventDefault();
-                  //   document
-                  //     .getElementById("download-section")
-                  //     .scrollIntoView();
-                  // }}
                 >
                   <i className="now-ui-icons design_bullet-list-67"></i>
                   <p>Team</p>
                 </NavLink>
               </NavItem>
-              
-              {/* <NavItem>
-                <NavLink
-                  href="https://twitter.com/CreativeTim?ref=creativetim"
-                  target="_blank"
-                  id="twitter-tooltip"
-                >
-                  <i className="fab fa-twitter"></i>
-                  <p className="d-lg-none d-xl-none">Twitter</p>
-                </NavLink>
-                <UncontrolledTooltip target="#twitter-tooltip">
-                  Follow us on Twitter
-                </UncontrolledTooltip>
-              </NavItem>
-              <NavItem>
-                <NavLink
-                  href="https://www.facebook.com/CreativeTim?ref=creativetim"
-                  target="_blank"
-                  id="facebook-tooltip"
-                >
-                  <i className="fab fa-facebook-square"></i>
-                  <p className="d-lg-none d-xl-none">Facebook</p>
-                </NavLink>
-                <UncontrolledTooltip target="#facebook-tooltip">
-                  Like us on Facebook
-                </UncontrolledTooltip>
-              </NavItem>
-              <NavItem>
-                <NavLink
-                  href="https://www.instagram.com/CreativeTimOfficial?ref=creativetim"
-                  target="_blank"
-                  id="instagram-tooltip"
-                >
-                  <i className="fab fa-instagram"></i>
-                  <p className="d-lg-none d-xl-none">Instagram</p>
-                </NavLink>
-                <UncontrolledTooltip target="#instagram-tooltip">
-                  Follow us on Instagram
-                </UncontrolledTooltip>
-              </NavItem> */}
             </Nav>
           </Collapse>
         </Container>
-        
       </Navbar>
       <Hscroll />
     </>

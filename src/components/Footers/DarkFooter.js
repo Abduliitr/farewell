@@ -59,65 +59,63 @@ function DarkFooter() {
           </div>
         </div>
         <ModalBody>
-          <a href="/profile-page" style={{color:"white"}} target="_blank" onClick={() => setModal2(false)}><h3>Abdulahad Khan</h3></a>
-          {/* <Container> */}
+          <a href="/profile-page" style={{color:"white", textAlign:"center"}} target="_blank" onClick={() => setModal2(false)}><h3>Abdulahad Khan</h3></a>
             <Row className="justify-content-md-center text-center">
               <Col className="text-center" lg="12" md="12">
-                <Button
-                  style={{borderRadius:"10%"}}
-                  className="btn-neutral btn-icon btn-round"
-                  color="github"
-                  href="https://github.com/Abduliitr"
-                  target="_blank"
-                  id="github-tooltip"
-                >
-                  <i style={{fontSize:"40px"}} className="fa fa-github"></i>
-                </Button>
-                <UncontrolledTooltip target="#github-tooltip">
-                  Follow me on Github
-                </UncontrolledTooltip>
-                <Button
-                  style={{borderRadius:"10%"}}
-                  className="btn-neutral btn-icon"
-                  color="facebook"
-                  href="https://www.facebook.com/qadbury0123456789"
-                  target="_blank"
-                  id="facebook-tooltip"
-                >
-                  <i style={{fontSize:"40px"}} className="fa fa-facebook-square"></i>
-                </Button>
-                <UncontrolledTooltip target="#facebook-tooltip">
-                  Like me on Facebook
-                </UncontrolledTooltip>
-                <Button
-                  style={{borderRadius:"10%"}}
-                  color="twitter"
-                  className="btn-neutral btn-icon btn-round"
-                  href="https://twitter.com/Abdulah78723029"
-                  target="_blank"
-                  id="twitter-tooltip"
-                >
-                  <i style={{fontSize:"40px"}} className="fa fa-twitter"></i>
-                </Button>
-                <UncontrolledTooltip target="#twitter-tooltip">
-                  Follow me on Twitter
-                </UncontrolledTooltip>
-                <Button
-                  style={{borderRadius:"10%"}}
-                  className="btn-neutral btn-icon"
-                  color="instagram"
-                  href="https://www.instagram.com/abdulahad_1318/"
-                  target="_blank"
-                  id="instagram-tooltip"
-                >
-                  <i style={{fontSize:"40px"}} className="fa fa-instagram"></i>
-                </Button>
-                <UncontrolledTooltip target="#instagram-tooltip">
-                  Follow me on Instagram
-                </UncontrolledTooltip>
+                  <Button
+                    style={{borderRadius:"10%"}}
+                    className="btn-neutral btn-icon btn-round"
+                    color="github"
+                    href="https://github.com/Abduliitr"
+                    target="_blank"
+                    id="github-tooltip"
+                  >
+                    <i style={{fontSize:"40px", left:"13px", top:"18px"}} className="fab fa-github"></i>
+                  </Button>
+                  <UncontrolledTooltip target="#github-tooltip">
+                    Follow me on Github
+                  </UncontrolledTooltip>
+                  <Button
+                    style={{borderRadius:"10%"}}
+                    className="btn-neutral btn-icon"
+                    color="facebook"
+                    href="https://www.facebook.com/qadbury0123456789"
+                    target="_blank"
+                    id="facebook-tooltip"
+                  >
+                    <i style={{fontSize:"40px", left:"13px", top:"18px"}} className="fab fa-facebook-square"></i>
+                  </Button>
+                  <UncontrolledTooltip target="#facebook-tooltip">
+                    Like me on Facebook
+                  </UncontrolledTooltip>
+                  <Button
+                    style={{borderRadius:"10%"}}
+                    color="twitter"
+                    className="btn-neutral btn-icon btn-round"
+                    href="https://twitter.com/Abdulah78723029"
+                    target="_blank"
+                    id="twitter-tooltip"
+                  >
+                    <i style={{fontSize:"35px", left:"13px", top:"18px"}} className="fab fa-twitter"></i>
+                  </Button>
+                  <UncontrolledTooltip target="#twitter-tooltip">
+                    Follow me on Twitter
+                  </UncontrolledTooltip>
+                  <Button
+                    style={{borderRadius:"10%"}}
+                    className="btn-neutral btn-icon"
+                    color="instagram"
+                    href="https://www.instagram.com/abdulahad_1318/"
+                    target="_blank"
+                    id="instagram-tooltip"
+                  >
+                    <i style={{fontSize:"40px", left:"13px", top:"18px"}} className="fab fa-instagram"></i>
+                  </Button>
+                  <UncontrolledTooltip target="#instagram-tooltip">
+                    Follow me on Instagram
+                  </UncontrolledTooltip>
               </Col>
             </Row>
-          {/* </Container> */}
         </ModalBody>
         <div className="modal-footer">
           <Button className="btn-neutral" color="link" type="button" href="/profile-page" target="_blank" onClick={() => setModal2(false)}>

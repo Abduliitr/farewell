@@ -15,19 +15,19 @@ import {
 
 const items = [
   {
-    src: require("assets/img/team-bg-1.jpeg"),
+    src: require("assets/img/team-bg-1.jpg"),
     altText: "CRY Stall, THOMSO'19",
     caption: "CRY Stall, THOMSO'19"
   },
   {
-    src: require("assets/img/team-bg-2.jpeg"),
+    src: require("assets/img/team-bg-2.jpg"),
     altText: "Health Camp, Majra",
     caption: "Health Camp, Majra"
   },
   {
-    src: require("assets/img/bg4.jpg"),
-    altText: "Yellowstone National Park, United States",
-    caption: "Yellowstone National Park, United States"
+    src: require("assets/img/team-bg-3.jpg"),
+    altText: "PhotoShoot, 2019 Batch",
+    caption: "PhotoShoot, 2019 Batch"
   }
 ];
 

@@ -222,7 +222,7 @@ export const Members = [
       linkedinLink:"https://linkedin.com/in/"
     },
     {
-      src: require("assets/img/team/default-avatar.png"),
+      src: require("assets/img/team/siddhi.png"),
       name: "Siddhita Yadav",
       fbLink:"https://m.facebook.com/siia03",
       linkedinLink:"https://www.linkedin.com/in/siddhita-yadav-66115a199"

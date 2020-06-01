@@ -340,7 +340,7 @@ class Seniors extends Component {
                     <Row style={{background:"black"}}>
                         {this.state.members.map((member)=> {
                             return (
-                                <Col xs="3" sm="2" style={{padding:"2px"}} className="">
+                                <Col xs="3" sm="2" style={{padding:"2px"}} key={member.id} className="">
                                     <div className="flip-box">
                                         <div className="flip-box-inner"  style={{borderRadius:"50%"}}>
                                             <div className="flip-box-front"  style={{borderRadius:"50%"}}>

@@ -28,10 +28,6 @@ function IndexHeader() {
       <div className="page-header" id="main-head">
         <div
           className="page-header-image"
-          // id="tsparticles"
-          // style={{
-          //   backgroundImage: "url(" + require("assets/img/header1.jpg") + ")"
-          // }}
           ref={pageHeader}
         ></div>
         <Container>

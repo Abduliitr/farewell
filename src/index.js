@@ -3,6 +3,8 @@ import ReactDOM from "react-dom";
 import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
 import Snow from 'react-snow-effect';
 
+import * as serviceWorker from './serviceWorker';
+
 // styles for this kit
 import "assets/css/bootstrap.min.css";
 import "assets/scss/now-ui-kit.scss";
@@ -33,3 +35,8 @@ ReactDOM.render(
   </BrowserRouter>,
   document.getElementById("root")
 );
+
+// If you want your app to work offline and load faster, you can change
+// unregister() to register() below. Note this comes with some pitfalls.
+// Learn more about service workers: https://bit.ly/CRA-PWA
+serviceWorker.unregister();

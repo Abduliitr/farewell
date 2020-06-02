@@ -31,7 +31,7 @@ class Index extends Component {
 
     setTimeout(() => {
       this.setState({isLoading: false});
-    }, 10000);
+    }, 5000);
 
     document.body.classList.add("index-page");
     document.body.classList.add("sidebar-collapse");

@@ -41,26 +41,29 @@ function TeamPageHeader() {
               <Button
                 className="btn-icon btn-round"
                 color="info"
-                href="#pablo"
-                onClick={e => e.preventDefault()}
+                target="_blank"
+                href="https://www.facebook.com/CRY.Roorkee/"
+                // onClick={e => e.preventDefault()}
               >
                 <i className="fab fa-facebook-square"></i>
               </Button>
               <Button
                 className="btn-icon btn-round"
                 color="info"
-                href="#pablo"
-                onClick={e => e.preventDefault()}
+                target="_blank"
+                href="https://twitter.com/Abdulah78723029"
+                // onClick={e => e.preventDefault()}
               >
                 <i className="fab fa-twitter"></i>
               </Button>
               <Button
                 className="btn-icon btn-round"
                 color="info"
-                href="#pablo"
-                onClick={e => e.preventDefault()}
+                target="_blank"
+                href="https://www.instagram.com/abdulahad_1318/"
+                // onClick={e => e.preventDefault()}
               >
-                <i className="fab fa-google-plus"></i>
+                <i className="fab fa-instagram"></i>
               </Button>
             </div>
             

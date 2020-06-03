@@ -63,7 +63,7 @@ function Tabs() {
                               setPills("2");
                             }}
                           >
-                            Ankur
+                            Ankur Sharma
                           </NavLink>
                         </NavItem>
                         <NavItem>
@@ -87,7 +87,7 @@ function Tabs() {
                               setPills("4");
                             }}
                           >
-                            Sunil
+                            Devang
                           </NavLink>
                         </NavItem>
                       </Nav>
@@ -119,6 +119,11 @@ function Tabs() {
                                 because I got the answers. I understand culture. I am
                                 the nucleus.
                               </p>
+                              {/* <footer className="blockquote-footer">Ankur Sharma,
+                                <cite title="Source Title">
+                                    CRY IITR Chapter Co-Head, 2017-2018.
+                                </cite>
+                              </footer> */}
                             </Col>
                           </Row>
                         </TabPane>
@@ -129,21 +134,20 @@ function Tabs() {
                               <img
                                 alt="..."
                                 className="rounded-circle img-raised"
-                                src={require("assets/img/team/pranjala.jpg")}
+                                src={require("assets/img/team/ankur.jpg")}
                               ></img>
                               
                             </Col>
                             <Col className="align-self-center" sm="12" md="9">
                               <p>
-                                I will be the leader of a company that ends up being
-                                worth billions of dollars, because I got the answers. I
-                                understand culture. I am the nucleus. I think that’s a
-                                responsibility that I have, to push possibilities, to
-                                show people, this is the level that things could be at.
-                                I think that’s a responsibility that I have, to push
-                                possibilities, to show people, this is the level that
-                                things could be at.
+                              Whenever I think about my college life, CRY always comes to my mind. Those night outs, mafias, logon ke confessions, sath me thomso k liye preparation, cycle pe majra jana, wahan k bacche, humari trips, all these things made my college life awesome. It gave me a wonderful chance to meet a lot of wonderful people. I have learnt a lot from the seniors and enjoyed a lot with juniors like you all.<br /><br />
+                                CRY is and will always be <span role="img" aria-label="love">❣️</span>.
                               </p>
+                              <footer className="blockquote-footer">Ankur Sharma,{" "}
+                                <cite title="Source Title">
+                                    CRY IITR Chapter Co-Head, 2017-2018.
+                                </cite>
+                              </footer>
                             </Col>
                           </Row>
                         </TabPane>
@@ -169,6 +173,11 @@ function Tabs() {
                                 because I got the answers. I understand culture. I am
                                 the nucleus.
                               </p>
+                              {/* <footer className="blockquote-footer">Ankur Sharma,
+                                <cite title="Source Title">
+                                    CRY IITR Chapter Co-Head, 2017-2018.
+                                </cite>
+                              </footer> */}
                             </Col>
                           </Row>
                         </TabPane>
@@ -179,18 +188,19 @@ function Tabs() {
                               <img
                                 alt="..."
                                 className="rounded-circle img-raised"
-                                src={require("assets/img/team/sunil.jpg")}
+                                src={require("assets/img/team/devang.jpeg")}
                               ></img>
                               
                             </Col>                          
                             <Col className="align-self-center" sm="12" md="9">
                               <p>
-                                "I will be the leader of a company that ends up being
-                                worth billions of dollars, because I got the answers. I
-                                understand culture. I am the nucleus. I think that’s a
-                                responsibility that I have, to push possibilities, to
-                                show people, this is the level that things could be at."
+                                "It's 2020. The Big Year. With You All walking out into the Outside World, it will be a Huge Transformation. My only message to everyone would be 'Be Generous and Kind'. The world needs a lot of Love and Happiness. Spread it and Cherish it. And if at any point you feel low in Life, just remember there's always a Gandhi at a message/call away. Feel free to ping. Loads of Love to All.<i className="fas fa-heart" style={{color:"red"}}></i>"
                               </p>
+                              <footer className="blockquote-footer">Devang Gandhi,{" "}
+                                <cite title="Source Title">
+                                    CRY IITR Chapter Mentorship-Head, 2016-2017.
+                                </cite>
+                              </footer>
                             </Col>
                           </Row>
                         </TabPane>

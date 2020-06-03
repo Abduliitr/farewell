@@ -14,16 +14,16 @@ function DarkFooter() {
 
             <li>
               <a
-                href="#"
-                // target="_blank"
+                href="https://cryiitr.blogspot.com/p/child-rights-and-you-commonly.html"
+                target="_blank"
               >
                 About Us
               </a>
             </li>
             <li>
               <a
-                href="#"
-                // target="_blank"
+                href="https://cryiitr.blogspot.com/p/child-rights-and-you-commonly.html"
+                target="_blank"
               >
                 Blog
               </a>

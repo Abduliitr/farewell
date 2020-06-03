@@ -44,7 +44,7 @@ function IndexHeader() {
               {/* <h3><Typist  startDelay="1000" cursor={{hideWhenDone:true, hideWhenDoneDelay:0}}>CHILD RIGHTS AND YOU FAMILY!</Typist></h3> */}
               {/* <h1 className="h1-seo">FOR ALL THE <Typewriter wait="3000" options={{strings: ['Loving','Caring','AMAZING', 'SUPPORTIVE'], autoStart: true, loop: true}}/>SENIORS...</h1> */}
               <h1 className="h1-seo">Hamare pyaare SENIORS</h1>
-              <h3>WE ARE REALLY GONNA MISS YOU A LOT!<i class="fas fa-heart"></i></h3>
+              <h3>WE ARE REALLY GONNA MISS YOU A LOT!<i className="fas fa-heart"></i></h3>
             {/* </div> */}
           </div>
           

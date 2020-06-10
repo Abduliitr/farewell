@@ -2,7 +2,7 @@
 import React from "react";
 
 // reactstrap components
-import { Alert, Container } from "reactstrap";
+import { Alert, Container, Button } from "reactstrap";
 // core components
 
 function IndexHeader() {
@@ -46,7 +46,10 @@ function IndexHeader() {
               <h1 className="h1-seo">Hamare pyaare SENIORS</h1>
               <h3>WE ARE REALLY GONNA MISS YOU A LOT!<i className="fas fa-heart"></i></h3>
             {/* </div> */}
+            <Button color="info" href="#farewell-video"> View Farewell Video <span className="fa fa-arrow-down"></span> </Button>
+            
           </div>
+            
           
         </Container>
       </div>

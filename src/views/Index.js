@@ -55,6 +55,7 @@ class Index extends Component {
         {/* <FadeIn> */}
           <div className="wrapper">
             <IndexHeader />
+            
             <Notifications />
             <Hscroll />
             <div className="main">

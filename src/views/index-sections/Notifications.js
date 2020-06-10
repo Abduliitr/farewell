@@ -12,6 +12,15 @@ function Notifications() {
   const [alert4, setAlert4] = React.useState(true);
   return (
     <>
+      <div class="video-responsive" id="farewell-video">
+        <iframe width="420" height="315" src="https://www.youtube.com/embed/t4W0hgQh4us?autoplay=1" frameborder="1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen="allowfullscreen"
+          mozallowfullscreen="mozallowfullscreen" 
+          msallowfullscreen="msallowfullscreen" 
+          oallowfullscreen="oallowfullscreen" 
+          webkitallowfullscreen="webkitallowfullscreen"></iframe>
+      </div>
+      
       <div className="section section-notifications" style={{background:"black"}}>
         <Alert color="success" isOpen={alert1}>
           <Container>

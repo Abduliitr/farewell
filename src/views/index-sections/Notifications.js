@@ -11,8 +11,8 @@ function Notifications() {
   // const [alert3, setAlert3] = React.useState(true);
   const [alert4, setAlert4] = React.useState(true);
   return (
-    <>
-      <div class="video-responsive" id="farewell-video">
+    <div id="farewell-video">
+      <div class="video-responsive">
         <iframe width="420" height="315" src="https://www.youtube.com/embed/t4W0hgQh4us?autoplay=1" frameborder="1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen="allowfullscreen"
           mozallowfullscreen="mozallowfullscreen" 
@@ -92,7 +92,7 @@ function Notifications() {
           </Container>
         </Alert>
       </div>
-    </>
+    </div>
   );
 }
 

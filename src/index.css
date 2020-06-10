@@ -198,3 +198,13 @@ img{
   width:100%;
   position:absolute;
 }
+
+@media (max-width: 500px){
+  .video-responsive iframe{
+    height: 100%;
+  }
+}
+
+#farewell-video{
+  padding-top: 100px;
+}

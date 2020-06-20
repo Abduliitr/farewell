@@ -10,7 +10,7 @@ import DarkFooter from "components/Footers/DarkFooter.js";
 import CoolLoader from 'components/Loaders/CoolLoader.js'
 
 // sections for this page
-import Events from "./index-sections/Events"
+// import Events from "./index-sections/Events"
 import Tabs from "./index-sections/Tabs.js";
 import Notifications from "./index-sections/Notifications.js";
 import Carousel from "./index-sections/Carousel.js";
@@ -61,7 +61,7 @@ class Index extends Component {
             <div className="main">
               <Carousel />
               <Tabs />
-              <Events />
+              {/* <Events /> */}
               <CompleteExamples />
               <Examples />
               <Download /> 

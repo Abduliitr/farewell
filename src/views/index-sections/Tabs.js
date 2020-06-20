@@ -44,6 +44,18 @@ function Tabs() {
                       >
                         <NavItem>
                           <NavLink
+                            className={pills === "0" ? "active" : ""}
+                            href="#parnica"
+                            onClick={e => {
+                              e.preventDefault();
+                              setPills("0");
+                            }}
+                          >
+                            Parnica Sharma
+                          </NavLink>
+                        </NavItem>
+                        <NavItem>
+                          <NavLink
                             className={pills === "1" ? "active" : ""}
                             href="#pablo"
                             onClick={e => {
@@ -97,6 +109,29 @@ function Tabs() {
                         className="text-center"
                         activeTab={"pills" + pills}
                       >
+                        <TabPane tabId="pills0">
+                          <Row>
+                            <Col xs="3" sm="3" className="d-block d-md-none"></Col>
+                            <Col xs="6" sm="6" md="3" style={{padding:"10px"}}>
+                                <img
+                                  alt="..."
+                                  className="rounded-circle img-raised"
+                                  src={require("assets/img/team/parnica.jpeg")}
+                                ></img>
+                                
+                              </Col>
+                            <Col className="align-self-center" sm="12" md="9">
+                              <p>
+                              I worked as a CRY IIT Roorkee volunteer for  nearly 2 years during my Mtech.  Contrary to its name the volunteers of CRY have brought only SMILES to precious little children. I would feel absolutely blissful while teaching the kids at Majra village. I remember celebrating occasions like Independence day, Republic day and Rakhsha Bandhan with these kids. They had limited financial resources so we would provide them notebooks, pens, drawing books and other useful resources. The joy on their faces while learning something new was a treat to the eyes and the soul. Their naughty laughter, regard for the volunteers which they expressed through salutations like "Namaste Sirji/Madamji" and their playful eyes have left an ever lasting imprint on my mind.  I will always cherish my days as a CRY Volunteer and wish to contribute to society in the best possible way I can.
+                              </p>
+                              <footer className="blockquote-footer">Parnica Sharma,
+                                <cite title="Source Title">
+                                    CRY IITR Chapter, 2016-2017.
+                                </cite>
+                              </footer>
+                            </Col>
+                          </Row>
+                        </TabPane>
                         <TabPane tabId="pills1">
                           <Row>
                             <Col xs="3" sm="3" className="d-block d-md-none"></Col>
@@ -104,26 +139,19 @@ function Tabs() {
                                 <img
                                   alt="..."
                                   className="rounded-circle img-raised"
-                                  src={require("assets/img/julie.jpg")}
+                                  src={require("assets/img/team/ben.jpeg")}
                                 ></img>
                                 
                               </Col>
                             <Col className="align-self-center" sm="12" md="9">
                               <p>
-                                I think that’s a responsibility that I have, to push
-                                possibilities, to show people, this is the level that
-                                things could be at. So when you get something that has
-                                the name Kanye West on it, it’s supposed to be pushing
-                                the furthest possibilities. I will be the leader of a
-                                company that ends up being worth billions of dollars,
-                                because I got the answers. I understand culture. I am
-                                the nucleus.
+                              Nothing beats the college days as that's when you have more control over your time, much easier to find volunteers driven by similar passion and work on problems as a close knit community. Volunteering with CRY came with a special kind of feeling of fulfillment that I may not be able to experience again. The biggest takeaway for me would be that the experiences of CRY helped me to become a more empathetic and thoughtful of the problems out there, and what goes into solving them and the challenges faced. I am sure this is gonna stay with me for long and will factor into new responsibilities and challenges that I take going forward.
                               </p>
-                              {/* <footer className="blockquote-footer">Ankur Sharma,
+                              <footer className="blockquote-footer">Benison,
                                 <cite title="Source Title">
-                                    CRY IITR Chapter Co-Head, 2017-2018.
+                                    CRY IITR Chapter Head, 2017-2018.
                                 </cite>
-                              </footer> */}
+                              </footer>
                             </Col>
                           </Row>
                         </TabPane>
@@ -158,26 +186,20 @@ function Tabs() {
                               <img
                                 alt="..."
                                 className="rounded-circle img-raised"
-                                src={require("assets/img/avatar.jpg")}
+                                src={require("assets/img/team/iqbal.jpeg")}
                               ></img>
                               
                             </Col>                          
                             <Col className="align-self-center" sm="12" md="9">
                               <p>
-                                I think that’s a responsibility that I have, to push
-                                possibilities, to show people, this is the level that
-                                things could be at. So when you get something that has
-                                the name Kanye West on it, it’s supposed to be pushing
-                                the furthest possibilities. I will be the leader of a
-                                company that ends up being worth billions of dollars,
-                                because I got the answers. I understand culture. I am
-                                the nucleus.
+                              CRY is the best thing happened to me during my college life. Fantastic seniors who were always ready to help and guide, and awesome juniors who were always ready to learn. It always felt good to go to majra and teach those kids, I remember whenever I used to go all the kids used to say "hum Iqbal sir se padhenge", not boasting about it but it used to feel awesome being the favourite mentor. All the work we did, we did it with fum. Thomso and cogni nights , random night out, CRY parties, TRIPs with CRY people and especially the CRY confession game it was all so wonderful. CRY gave me friends for life. I couldn't ask anything more from a single group. It's not a group it's a family. Thanks to CRY for giving me so many memories and making my college life a lot more wonderful.
+I Love you CRY 3000 ❤️
                               </p>
-                              {/* <footer className="blockquote-footer">Ankur Sharma,
+                              <footer className="blockquote-footer">Iqbal Khan,
                                 <cite title="Source Title">
-                                    CRY IITR Chapter Co-Head, 2017-2018.
+                                    CRY IITR Chapter RTE Head, 2017-2018.
                                 </cite>
-                              </footer> */}
+                              </footer>
                             </Col>
                           </Row>
                         </TabPane>

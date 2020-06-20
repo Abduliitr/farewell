@@ -121,7 +121,7 @@ export const Members = [
     },
     {
       src: require("assets/img/team/prabhakar.jpeg"),
-      name: "Abee Gandu...",
+      name: "Prabhakar Aryan",
       fbLink:"https://www.facebook.com/profile.php?id=100009371717274",
       linkedinLink:"https://www.linkedin.com/in/prabhakar-kumar-623721151"
     },
